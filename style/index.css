@@ -1,0 +1,239 @@
+/* ............common style............ */
+
+body {
+    background-color: white;
+
+}
+
+/* ........head style........ */
+.header-head {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 140px;
+}
+
+.title {
+    font-size: 30px;
+    font-weight: 600px;
+}
+
+.nav-list {
+    display: flex;
+    gap: 17px;
+    list-style: none;
+    margin-right: 35px;
+}
+
+.nav-specific-item {
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.introducing {
+    display: flex;
+    margin-top: 50px;
+    justify-content: space-between;
+    padding: 10px 140px;
+}
+
+.intro-title {
+    font-size: 52px;
+    font-weight: 700;
+}
+
+.intro-text {
+    width: 700px;
+}
+
+.order-btn {
+    font-size: 16px;
+    border: 1px solid black;
+    border-radius: 25px;
+    padding: 15px 20px;
+    background-color: white;
+}
+
+/* ................
+popular brands
+.................... */
+.all-brands {
+    padding: 10px 140px;
+}
+
+.brands {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    grid-gap: 5px;
+    margin-top: 30px;
+    padding: 30px 5px;
+}
+
+.hr {
+    border: .5px solid rgb(124, 122, 122);
+}
+
+/* ..................
+popular collection 
+.....................*/
+.all-items {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-content: space-evenly;
+    padding: 10px 140px;
+}
+
+.item-collection {
+    padding: 5px 15px;
+    width: 220px;
+}
+
+.popular-title {
+    font-size: 34px;
+    text-align: center;
+}
+
+.price {
+    font-weight: 600;
+}
+
+.rating {
+    color: black;
+}
+
+.description {
+    color: grey;
+    font-size: 18px;
+}
+
+.see-para {
+    text-align: right;
+}
+
+.see-para a {
+    text-decoration: none;
+    padding: 10px 255px;
+}
+
+/* ...................
+distributionn
+..................... */
+.all-offers {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin-left: 14px;
+    margin-top: 90px;
+    margin-bottom: 80px;
+    padding: 10px 140px;
+}
+
+.offers {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 3px 26px;
+}
+
+.offer-icon {
+    font-size: 30px;
+}
+
+.offer-option {
+    font-size: 14px;
+    color: gray;
+}
+
+/* ..............
+footer
+............... */
+.all-contacts {
+    text-align: center;
+    background-color: rgb(245, 237, 237);
+    padding: 10px 140px;
+}
+
+.footer-title {
+    font-size: 26px;
+    font-weight: 500px;
+    padding-top: 43px;
+}
+
+.icon {
+    font-size: 20px;
+}
+
+.footer-icons {
+    display: flex;
+    gap: 18px;
+    justify-content: center;
+    padding-bottom: 43px;
+}
+
+.rules {
+    color: gray
+}
+
+/* ....................
+responsive
+........................ */
+/* -----------------
+mobile devices---------- */
+@media only screen and (max-width: 582px) {
+    .header-head {
+        display: flex;
+        flex-direction: column-reverse;
+        background-color: rgb(255, 0, 68);
+        justify-content: center;
+    }
+
+    .introducing {
+        display: flex;
+        flex-direction: column-reverse;
+        padding: 3px 15px;
+        align-items: center;
+
+        justify-content: center;
+    }
+
+    .intro-title {
+        font-size: 28px;
+    }
+
+    .intro-pic {
+        height: auto;
+        width: 60%;
+        padding: 2px 16px;
+    }
+
+    .intro-text {
+        width: 280px;
+    }
+
+    .brands {
+        width: 280px;
+        display: grid;
+        grid-template-columns: repeat(1, 2fr);
+        grid-gap: 40px;
+    }
+
+    .all-items {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        justify-content: center;
+    }
+
+    .item-collection {
+        padding-bottom: 30px;
+    }
+
+    .see-para {
+        text-align: right;
+        width: 200px;
+    }
+        .all-offers{display: flex;
+        flex-direction: column;
+    width: 100%;}
+
+}
+.all-contracts{display: flex;
+justify-content: center;}
